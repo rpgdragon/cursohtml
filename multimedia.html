@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="utf-8">
+<script>
+    function pintar(){
+        var canvas = document.getElementById("canvas");
+        if(canvas!=undefined && canvas.getContext){
+            var ctx = canvas.getContext("2d");
+            ctx.fillStyle="rgb(200,0,0)";
+            ctx.fillRect(30,30,100,50);
+            ctx.fillStyle="rgb(150,150,0)";
+            ctx.fillRect(90,10,10,300);
+        }
+    }
+</script>
+    </head>
+    <body onload="pintar()">
+        <video width="400px" height="250px" controls><source src="programming.mp4" type="video/mp4"><track src="sub.vtt" srclang="es" kind="subtitles" label="Spanish">  No tienes los codecs apropiados para la reproducción de este video</video>
+        <audio controls><source src="computer.mp3" type="audio/mpeg">No puedes reproducir MP3 </audio>
+
+
+        <iframe src="http://www.jmcastellano.eu" width="300px" height="300px" style="border:0px" ></iframe>
+
+        <canvas id="canvas" width="500px" height="400px" style="border: 2px solid black">
+
+        </canvas>
+
+        <address>José Manuel Castellano Domínguez, Calle la Tulsa nº 5</address>
+        <pre>
+            Hola           hola
+        </pre>
+        <pre>
+            &lt;video width="400px" height="250px" controls&gt;&lt;source src="programming.mp4" type="video/mp4"&gt;&lt;track src="sub.vtt" srclang="es" kind="subtitles" label="Spanish"&gt;  No tienes los codecs apropiados para la reproducción de este video&lt;/video&gt;
+        </pre>
+
+        <code>
+            <pre>
+            public static void main(String[] args){
+                System.out.println("Hola");
+            }
+        </pre>
+        </code>
+
+        <figure>
+            <img src="../micara.jpg" width="100px" height="200px"/>
+            <figcaption>Foto de José Manuel Castellano Domínguez</figcaption>
+        </figure>
+
+        <em>Texto Enfatizado</em>
+        <strong>Hola</strong>
+        <small>Texto pequeño</small>
+
+        <cite>Esto forma parte del curso de HTML de Jose Manuel</cite>
+
+        <time>10:50</time>
+    </body>
+</html>

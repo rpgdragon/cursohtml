@@ -1,0 +1,16 @@
+div{
+    text-align: left;
+}
+
+.cursor span b{
+    font-weight: 0;
+}
+
+.cursohtml{
+    box-shadow: 2px 2px 5px rgba(120,120,120,1);
+}
+
+p{
+    font-size:1.2em;
+}
+

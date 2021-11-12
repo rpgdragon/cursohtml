@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="curso,html,programador,informática">
+        <meta name="author" content="Jose Manuel Castellano Dominguez">
+        <meta name="description" content="Pagina de curso de HTML donde se explica a programar en el mismo">
+        <link 
+        <title>Formularios</title>
+    </head>
+    <body>
+        <p>Esto es un formulario çççççç l' l'</p>
+        <form action="ruta1.html" method="GET">
+            <input type="text" name="nombre" id="nombre" placeholder="Aqui introduzca su nombre" size="200" maxlength="10" />
+            <input type="number" name="edad" id="edad" placeholder="Aqui introduzca su edad" maxlength="4"/>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Aqui introduzca sus apellidos" value="Castellano Dominguez" size="200" maxlength="40" />
+            <textarea rows="10" cols="40" placeholder="Rellene esta caja"></textarea>
+            <input type="checkbox" name="casilla" id="casilla" value="si"/>Esto es la casilla de verificaci&oacute;n
+            <input type="checkbox" name="casilla2" id="casilla2" value="si,hola" checked/>Esto es la casilla de verificaci&oacute;n
+            <br/>
+            Elija su edad<br/>
+            <input type="radio" name="edad" value="0">Entre 0 y 18 a&ntilde;os <br/>
+            <input type="radio" name="edad" value="1">Entre 19 y 36 a&ntilde;os <br/>
+            <input type="radio" name="edad" value="2">Mas de 36<br/>
+            Elija donde vive<br/>
+            <select name="ciudades" id="ciudadades">
+                <option>Elija una...</option>
+                <option value="B">Barcelona</option>
+                <option value="M">Madrid</option>
+                <option value="V">Valencia</option>
+                <option value="ML" selected>Malaga</option>
+                <option value="P">Perdido</option>
+            </select>
+            <input type="submit" value="Enviar formulario"/>
+        </form>
+
+        <form action="ruta1.html" method="GET">
+            <input type="text" name="usuario" id="usuario" placeholder="Aqui introduzca el usuario" size="30" maxlength="30" />
+            <input type="password" name="password" id="password" placeholder="Aqui introduzca su password" size="30" maxlength="30"/>
+            <input type="hidden" name="escondido" id="escondido" value="1">
+            <input type="submit" value="Login"/>
+        </form>
+    </body>
+</html>

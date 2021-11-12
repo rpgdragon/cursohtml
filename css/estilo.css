@@ -1,0 +1,76 @@
+div{
+    text-align:center;
+}
+
+#hola{
+
+}
+
+.fortuna{
+    
+}
+
+div *{
+    text-align:center;
+}
+
+div b.pintado{
+    color:crimson;
+}
+
+div b#esb{
+    color:cyan;
+}
+
+div p b{
+    font-style: italic;
+}
+
+img{
+    width:50px;
+}
+
+a:link{
+    color:green;
+}
+
+a:visited{
+    color:red;
+}
+
+div + h1{
+    background-color: seagreen;
+}
+
+div ~ ul{
+    display:none;
+}
+
+div > h1{
+    border: 2px solid black
+}
+
+input[type="checkbox"]:checked{
+    display:none;
+}
+
+p::first-letter{
+    font-size: 5em;
+}
+
+p::first-line{
+    font-style: italic;
+}
+
+p::after{
+    content:"]"
+}
+
+p::before{
+    content:"["
+}
+
+
+p::selection{
+    font-size: 3em;
+}

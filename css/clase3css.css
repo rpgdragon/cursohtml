@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+p{
+    font:lighter 1em Arial, Helvetica, sans-serif;
+    font-stretch: ultra-condensed;
+}
+
+.tam_3em{
+    font-size:3em;
+}
+
+.negrita{
+    font-weight:bolder;
+}
+
+.cursiva{
+    font-style:italic;
+}
+
+#variant{
+    font-variant-caps:all-petite-caps;
+}
+
+.rojo{
+    color:rgba(255,0,0,0.3);
+}
+
+.p100{
+    width:100%;
+}
+
+.p100 p{
+    text-align:justify;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-indent: 100px;
+    word-spacing: 10px;
+    white-space:nowrap
+}
+
+.subrayado{
+    text-decoration: underline;
+}
+
+.sinsubrayado{
+    text-decoration: none;
+}
+
+.tachado{
+    text-decoration:line-through;
+}
+
+.mayus{
+    text-transform: uppercase;
+}
+
+table{
+    border-width:4px 8px 2px 4px;
+    border-style:solid;
+    border-top-color: red;
+    border-right-color:blue;
+    border-left-color:yellow;
+    border-bottom-color:green;
+    width:100%;
+    height: 300px;
+    border-collapse: separate;
+    border-spacing: 5px;
+    empty-cells: hide;
+}
+
+td{
+    vertical-align: top;
+    border:2px solid black;
+    margin:40px;
+}
+
+.caja{
+    border:2px solid black;
+    margin: 10px 0px 10px 0px;
+    padding:0px 0px 20px 20px;
+}
+
+.caja span{
+    margin-left:0px;
+    margin-right:20px;
+}
+
+body{
+    background-image:url("../../micara.jpg");
+    background-repeat:no-repeat;
+    background-clip:border-box;
+    background-position: right top;
+}
+
+ul li{
+    list-style: none;
+}
+
+
+#cajamolona{
+    width:50%;
+    height:300px;
+    border:2px solid black;
+    display:block;
+    overflow:scroll;
+    position:absolute;
+    top:100px;
+    right:0px;
+    z-index:0;
+}
+
+#footer{
+    width:50%;
+    border: 2px solid red;
+    display:block;
+    position:absolute;
+    top:100px;
+    right:200px;
+    z-index: 10;
+}
+

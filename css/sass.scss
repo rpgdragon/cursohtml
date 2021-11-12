@@ -1,0 +1,47 @@
+@use 'base';
+@use 'variables';
+
+@mixin tamano ($tamano: 50px) {
+    width:$tamano * 2;
+}
+
+%fuentebasica{
+    font-family:$fuentafamilia;
+    color:red;
+    font-size:2em;
+}
+
+.familia{
+    @extend %fuentebasica;
+    font-weight: bolder;
+    @include tamano();
+}
+
+.familia2{
+    @extend %fuentebasica;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+div{
+    @include tamano(300px);
+    p{
+        font-size:2em;
+        span{
+            text-decoration:overline !important;
+            b{
+                font-weight: 0;
+            }
+        }
+    }
+
+    img{
+        width:450px;
+    }
+
+    span{
+        font-size:1.1em;
+        text-decoration: underline;
+    }
+}
+

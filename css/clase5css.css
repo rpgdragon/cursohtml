@@ -1,0 +1,81 @@
+.dni{
+    width:1024px;
+}
+
+.subrayado{
+    text-decoration: underline;
+    display:inline-block;
+}
+
+div span:nth-of-type(even){
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width:1024px) and (orientation:portrait) {
+    .dni{
+        width:100%;
+    }
+
+    .subrayado{
+        width: 20%;
+    }
+
+    div{
+        width:100%;
+    }
+
+    div span:nth-of-type(even){
+        width: 60%;
+    }
+
+    .formu span {
+        width: 100%;
+        margin-left:0px !important;
+    }
+    
+    .formu input{
+        width:100%;
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+    .subrayado{
+        width:10%;
+    }
+
+    div{
+        display: inline-block;
+        vertical-align: top;
+        line-height: 1;
+    }
+
+    div span:nth-of-type(even){
+        width: 70%;
+    }
+
+    .formu span {
+        margin-left:0px !important;
+    }
+    
+    .formu input{
+        width:300px;
+    }
+    
+}
+
+.formu{
+    width:100%;
+}
+
+
+
+
+
+    
+
+    
+    
+
+
